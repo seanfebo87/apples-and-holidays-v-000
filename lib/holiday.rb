@@ -72,7 +72,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   keys_array = []
   keys_array << holiday_hash[:summer].keys
-  keys_array << holiday_hash[:spring].keys_array
+  keys_array << holiday_hash[:spring].keys
   return keys_array
 end
 
