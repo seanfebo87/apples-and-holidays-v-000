@@ -71,8 +71,9 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
   
-   return holiday_hash[:summer].keys
-  
+  holiday_hash[:summer][:spring].keys
+  holiday_hash[:spring].keys
+  return keys_array.flatten
 end
 
 
