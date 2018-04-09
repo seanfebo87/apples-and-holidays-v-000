@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
       supplies.push(supply)
       return supplies
     end
+    end
   end
 
 end
