@@ -51,7 +51,6 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies = []
   holiday_hash.map[:winter] do |season, holiday|
   supplies << holiday_hash[season].values.flatten
-    end
   end
   return supplies
 
