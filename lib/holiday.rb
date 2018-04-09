@@ -54,7 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
   supplies << holiday_hash[season].values.flatten
     end
   end
-  return supplies
+  return supplies[0]
 
 end
 
