@@ -65,6 +65,8 @@ holiday_hash.each do |season, info|
   info.each do |holiday, supply|
     holiday_array = holiday.to_s.split("_")
     holiday_array.capitalize!
+    holiday_array.join[" "]
+    puts holiday_array + ":" supply
 end
 end
 end
